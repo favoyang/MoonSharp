@@ -1,7 +1,7 @@
 MoonSharp
 =========
 ![MoohSharp logo](http://www.moonsharp.org/logos/moonsharp.png)  
-[MoohSharp offical site](http://www.moonsharp.org/logos/moonsharp.png)
+[MoohSharp offical site](http://www.moonsharp.org)
 
 
 _Unity3D npm package_  
