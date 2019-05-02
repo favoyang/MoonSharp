@@ -1,10 +1,10 @@
-MoonSharp       [![Build Status](https://travis-ci.org/xanathar/moonsharp.svg?branch=master)](https://travis-ci.org/xanathar/moonsharp) [![Build Status](https://img.shields.io/nuget/v/MoonSharp.svg)](https://www.nuget.org/packages/MoonSharp/)
+MoonSharp
 =========
-http://www.moonsharp.org   
+![MoohSharp offical site](http://www.moonsharp.org)
 
+_Unity3D npm package_  
 
-
-A complete Lua solution written entirely in C# for the .NET, Mono, Xamarin and Unity3D platforms.
+A complete Lua solution written entirely in C# for the *Unity3D* platform.
 
 Features:
 * 99% compatible with Lua 5.2 (with the only unsupported feature being weak tables support) 
@@ -12,7 +12,7 @@ Features:
 * Easy to use API
 * **Debugger** support for Visual Studio Code (PCL targets not supported)
 * Remote debugger accessible with a web browser and Flash (PCL targets not supported)
-* Runs on .NET 3.5, .NET 4.x, .NET Core, Mono, Xamarin and Unity3D
+* Runs on .NET 3.5, .NET 4.x, .NET Core, Mono, Xamarin and Unity3D *(This package runs only on Unity 3D!)*
 * Runs on Ahead-of-time platforms like iOS
 * Runs on IL2CPP converted code
 * Runs on platforms requiring a .NET 4.x portable class library (e.g. Windows Phone)
@@ -33,8 +33,20 @@ For highlights on differences between MoonSharp and standard Lua, see http://www
 
 Please see http://www.moonsharp.org for downloads, infos, tutorials, etc.
 
+Unity npm package
+=================
 
-**License**
+To start using this package add lines into `./Packages/manifest.json` like next sample:
+```json
+{
+  "dependencies": {
+    "moonsharp": "https://github.com/k0dep/MoonSharp.git#2.0.0"
+  }
+}
+```
+
+License
+=======
 
 The program and libraries are released under a 3-clause BSD license - see the license section.
 
@@ -42,7 +54,8 @@ Parts of the string library are based on the KopiLua project (https://github.com
 Debugger icons are from the Eclipse project (https://www.eclipse.org/).
 
 
-**Usage**
+Usage
+=====
 
 Use of the library is easy as:
 
@@ -67,11 +80,3 @@ double MoonSharpFactorial()
 ```
 
 For more in-depth tutorials, samples, etc. please refer to http://www.moonsharp.org/getting_started.html
-
-
-
-
-
-
-
-
