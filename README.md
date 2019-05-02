@@ -1,6 +1,8 @@
 MoonSharp
 =========
-![MoohSharp offical site](http://www.moonsharp.org)
+![MoohSharp logo](http://www.moonsharp.org/logos/moonsharp.png)  
+[MoohSharp offical site](http://www.moonsharp.org/logos/moonsharp.png)
+
 
 _Unity3D npm package_  
 
@@ -80,3 +82,4 @@ double MoonSharpFactorial()
 ```
 
 For more in-depth tutorials, samples, etc. please refer to http://www.moonsharp.org/getting_started.html
+
