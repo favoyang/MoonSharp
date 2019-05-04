@@ -271,6 +271,21 @@ namespace MoonSharp.Interpreter
 
 		/// <summary>
 		/// Creates a ScriptRuntimeException with a predefined error message specifying that
+		/// an invalid attempt to index the specified object was made
+		/// </summary>
+		/// <param name="obj">The object.</param>
+		/// <returns>
+		/// The exception to be raised.
+		/// </returns>
+		internal static ScriptRuntimeException IndexType(DynValue obj, Execution.VM.Instruction i)
+		{
+			return new ScriptRuntimeException("attempt to index a {0} value. Source position {1}:{2}",
+				obj.Type.ToLuaTypeString(), i.SourceCodeRef.FromLine.ToString(),
+				i.SourceCodeRef.FromChar.ToString());
+		}
+
+		/// <summary>
+		/// Creates a ScriptRuntimeException with a predefined error message specifying that
 		/// a loop was detected when performing __index over metatables.
 		/// </summary>
 		/// <returns>
