@@ -1,5 +1,5 @@
 {
-  "name": "moonsharp",
+  "name": "com.k0dep.moonsharp",
   "displayName": "MoonSharp",
   "version": "2.0.0",
   "description": "Unity npm package of interpreter for the Lua language, written entirely in C# for the Unity3D platforms, including handy remote debugger facilities",
